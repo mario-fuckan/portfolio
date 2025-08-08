@@ -9,6 +9,11 @@
 }
 @font-face {
   font-family: "Inter";
+  font-weight: 500;
+  src: url("/fonts/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter";
   font-weight: bold;
   src: url("/fonts/Inter-Bold.ttf");
 }
@@ -26,7 +31,6 @@
   --purple: #9d44b5;
   --green: #04e762;
   --transition-duration: 0.3s;
-  --box-shadow: 0px 0px 5px var(--border);
   font-family: "Inter";
   background-color: var(--black);
   scrollbar-gutter: stable;
@@ -52,15 +56,14 @@
 }
 
 main {
-  width: 80%;
+  width: 50%;
   margin: 30px auto;
 }
 
 nav {
   z-index: 1;
   border: 1px solid var(--border);
-  box-shadow: var(--box-shadow);
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -75,7 +78,6 @@ nav button {
   cursor: pointer;
   background-color: transparent;
   border: 1px solid var(--border);
-  box-shadow: var(--box-shadow);
   border-radius: 7px;
   color: var(--white);
   padding: 7px 12px;
@@ -84,12 +86,13 @@ nav button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  transition: background-color var(--transition-duration);
+  gap: 8px;
+  font-weight: 500;
 }
 nav a:hover,
 nav button:hover {
   background-color: var(--border);
+  transition: 0.3s;
 }
 nav a:first-of-type {
   font-size: 0.9rem;
@@ -105,7 +108,7 @@ nav .themeselector {
   min-width: 140px;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 3px;
+  padding: 5px 3px;
   position: absolute;
   top: 35px;
   right: 0px;
@@ -115,7 +118,10 @@ nav .themeselector button {
   color: var(--gray);
   justify-content: flex-start;
   border: none;
-  box-shadow: none;
+  transition: var(--transition-duration);
+}
+nav .themeselector button:hover {
+  color: var(--white);
 }
 
 .wrapper {
@@ -165,6 +171,7 @@ nav .themeselector button {
 }
 .wrapper aside .aside__block .aside__block__links a:hover {
   background-color: var(--border);
+  transition: 0.3s;
 }
 .wrapper .content {
   height: 4000px;

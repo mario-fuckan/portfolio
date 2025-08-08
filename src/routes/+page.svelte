@@ -18,12 +18,12 @@
 					url: "https://github.com/mariomeow"
 				},
 				{
-					title: "X",
+					title: "Twitter",
 					url: "https://x.com/mario_fuckan"
 				},
 				{
 					title: "Resume",
-					url: ""
+					url: "/resume.pdf"
 				}
 			]
 		}}

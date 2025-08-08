@@ -10,7 +10,7 @@
 	const icons = new SvelteMap([
 		["github", LucideGithub],
 		["resume", LucideFileText],
-		["x", PajamasTwitter]
+		["twitter", PajamasTwitter]
 	])
 </script>
 

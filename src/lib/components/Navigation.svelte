@@ -4,8 +4,10 @@
 	import LucideBriefcase from "~icons/lucide/briefcase"
 	import LucideMail from "~icons/lucide/mail"
 	import ThemeSelector from "./ThemeSelector.svelte"
-	import type { NAVSTATE } from "$lib/types"
+	import LucideMoon from "~icons/lucide/moon"
+	import LucideSun from "~icons/lucide/sun"
 	import { settings } from "$lib/global.svelte"
+	import type { NAVSTATE } from "$lib/types"
 
 	let navState = $state<NAVSTATE>(null)
 
@@ -20,18 +22,22 @@
 	<a href="/#projects"><LucidePresentation /> Projects</a>
 	<a href="/#work"><LucideBriefcase /> Work</a>
 	<a href="/#contact"><LucideMail /> Contact</a>
-	{#if settings.theme}
-		<div class="ts__wrapper">
-			<button
-				onclick={(e: MouseEvent) => {
-					e.stopImmediatePropagation()
-					setNavState("theme")
-				}}>THEME</button
-			>
-
-			{#if navState == "theme"}
-				<ThemeSelector {setNavState} />
+	<div class="ts__wrapper">
+		<button
+			onclick={(e: MouseEvent) => {
+				e.stopImmediatePropagation()
+				setNavState("theme")
+			}}
+		>
+			{#if settings.theme == "dark"}
+				<LucideMoon />
+			{:else}
+				<LucideSun />
 			{/if}
-		</div>
-	{/if}
+		</button>
+
+		{#if navState == "theme"}
+			<ThemeSelector {setNavState} />
+		{/if}
+	</div>
 </nav>
