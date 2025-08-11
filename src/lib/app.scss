@@ -205,8 +205,24 @@ nav {
 	}
 
 	.content {
-		height: 4000px;
+		height: max-content;
 		background-color: silver;
+	}
+}
+
+footer {
+	color: var(--gray);
+	text-align: center;
+	padding: 40px 0px;
+	font-size: 0.85rem;
+
+	a {
+		color: var(--gray);
+		text-underline-offset: 4px;
+	}
+
+	a:hover {
+		color: var(--white);
 	}
 }
 

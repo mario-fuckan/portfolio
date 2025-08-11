@@ -181,8 +181,22 @@ nav .themeselector button:hover {
   transition: 0.3s;
 }
 .wrapper .content {
-  height: 4000px;
+  height: max-content;
   background-color: silver;
+}
+
+footer {
+  color: var(--gray);
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 0.85rem;
+}
+footer a {
+  color: var(--gray);
+  text-underline-offset: 4px;
+}
+footer a:hover {
+  color: var(--white);
 }
 
 @media screen and (max-width: 1440px) {
