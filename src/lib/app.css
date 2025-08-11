@@ -22,6 +22,11 @@
   padding: 0px;
 }
 
+::selection {
+  background-color: var(--white);
+  color: var(--black);
+}
+
 :root {
   --black: #030711;
   --button-background: #141b2b;
@@ -40,7 +45,8 @@
   --black: white;
   --white: #020308;
   --button-background: #f1f5f9;
-  --border: #e8edf3;
+  --border: #d6dde4;
+  --gray: #646e79;
 }
 
 @media (prefers-color-scheme: light) {
@@ -48,7 +54,8 @@
     --black: white;
     --white: #020308;
     --button-background: #f1f5f9;
-    --border: #e8edf3;
+    --border: #d6dde4;
+    --gray: #646e79;
   }
 }
 .noscroll {
@@ -176,6 +183,12 @@ nav .themeselector button:hover {
 .wrapper .content {
   height: 4000px;
   background-color: silver;
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

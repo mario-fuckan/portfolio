@@ -6,7 +6,6 @@
 	import ThemeSelector from "./ThemeSelector.svelte"
 	import LucideMoon from "~icons/lucide/moon"
 	import LucideSun from "~icons/lucide/sun"
-	import LucideNotebookPen from "~icons/lucide/notebook-pen"
 	import { settings } from "$lib/global.svelte"
 	import type { NAVSTATE } from "$lib/types"
 
@@ -20,7 +19,6 @@
 <nav>
 	<a href="/">@mario_fuckan</a>
 	<a href="/"><LucideHome /> Home</a>
-	<a href="/blog"><LucideNotebookPen /> Blog</a>
 	<a href="/#projects"><LucidePresentation /> Projects</a>
 	<a href="/#work"><LucideBriefcase /> Work</a>
 	<a href="/#contact"><LucideMail /> Contact</a>

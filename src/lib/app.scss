@@ -3,6 +3,14 @@
 	transition: 0.3s;
 }
 
+@mixin light {
+	--black: white;
+	--white: #020308;
+	--button-background: #f1f5f9;
+	--border: #d6dde4;
+	--gray: #646e79;
+}
+
 @font-face {
 	font-family: "Inter";
 	src: url("/fonts/Inter-Regular.ttf");
@@ -31,6 +39,11 @@
 	padding: 0px;
 }
 
+::selection {
+	background-color: var(--white);
+	color: var(--black);
+}
+
 :root {
 	--black: #030711;
 	--button-background: #141b2b;
@@ -47,18 +60,12 @@
 }
 
 :root[data-theme="light"] {
-	--black: white;
-	--white: #020308;
-	--button-background: #f1f5f9;
-	--border: #e8edf3;
+	@include light;
 }
 
 @media (prefers-color-scheme: light) {
 	:root:not([data-theme]) {
-		--black: white;
-		--white: #020308;
-		--button-background: #f1f5f9;
-		--border: #e8edf3;
+		@include light;
 	}
 }
 
@@ -200,5 +207,11 @@ nav {
 	.content {
 		height: 4000px;
 		background-color: silver;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	main {
+		width: 80%;
 	}
 }

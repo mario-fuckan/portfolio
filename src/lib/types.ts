@@ -1,16 +1,9 @@
-import type { Component } from "svelte"
-
-export type PAGEMODULE = {
-	default: Component
-	metadata?: {
-		title: string
-		description: string
-	}
-}
-
 export type ASIDEBLOCK = {
 	title: string
-	description: string
+	notes: {
+		emoji: string
+		text: string
+	}[]
 	links: {
 		title: string
 		url: string

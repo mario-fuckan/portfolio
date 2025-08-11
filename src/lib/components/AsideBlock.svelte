@@ -2,7 +2,7 @@
 	import type { ASIDEBLOCK } from "$lib/types"
 	import LucideGithub from "~icons/lucide/github"
 	import LucideFileText from "~icons/lucide/file-text"
-	import PajamasTwitter from "~icons/pajamas/twitter"
+	import LucideLinkedin from "~icons/lucide/linkedin"
 	import { SvelteMap } from "svelte/reactivity"
 
 	let { information }: { information: ASIDEBLOCK } = $props()
@@ -10,13 +10,15 @@
 	const icons = new SvelteMap([
 		["github", LucideGithub],
 		["resume", LucideFileText],
-		["twitter", PajamasTwitter]
+		["linkedin", LucideLinkedin]
 	])
 </script>
 
 <div class="aside__block">
 	<h2>{information.title}</h2>
-	<p>{information.description}</p>
+	{#each information.notes as { emoji, text }}
+		<p>{emoji} {text}</p>
+	{/each}
 	<div class="aside__block__links">
 		{#each information.links as { title, url }}
 			{@const Icon = icons.get(title.toLowerCase())}
