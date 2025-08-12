@@ -37,6 +37,7 @@
   --green: #04e762;
   --transition-duration: 0.3s;
   --underscore-offset: 4px;
+  --section-padding-top: 80px;
   --font-normal: 0.8rem;
   --font-normalplus: 0.9rem;
   --font-heading: 1rem;
@@ -186,7 +187,6 @@ nav .themeselector button:hover {
 .wrapper .content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 80px;
   height: max-content;
 }
 .wrapper .content h1 {
@@ -195,6 +195,7 @@ nav .themeselector button:hover {
   font-weight: 500;
 }
 .wrapper .content #contact {
+  padding-top: var(--section-padding-top);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -235,6 +236,7 @@ nav .themeselector button:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-top: var(--section-padding-top);
 }
 .wrapper .content #work .items {
   border: 1px solid var(--border);

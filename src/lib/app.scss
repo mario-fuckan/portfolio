@@ -53,6 +53,7 @@
 	--green: #04e762;
 	--transition-duration: 0.3s;
 	--underscore-offset: 4px;
+	--section-padding-top: 80px;
 
 	--font-normal: 0.8rem;
 	--font-normalplus: 0.9rem;
@@ -212,7 +213,6 @@ nav {
 	.content {
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 80px;
 		height: max-content;
 
 		h1 {
@@ -222,6 +222,7 @@ nav {
 		}
 
 		#contact {
+			padding-top: var(--section-padding-top);
 			display: flex;
 			flex-direction: column;
 			gap: 20px;
@@ -268,6 +269,7 @@ nav {
 			display: flex;
 			flex-direction: column;
 			gap: 20px;
+			padding-top: var(--section-padding-top);
 
 			.items {
 				border: 1px solid var(--border);
