@@ -1,5 +1,7 @@
 <script lang="ts">
 	import AsideBlock from "$lib/components/AsideBlock.svelte"
+	import Contact from "$lib/components/Contact.svelte"
+	import Work from "$lib/components/Work.svelte"
 </script>
 
 <svelte:head>
@@ -35,14 +37,32 @@
 				},
 				{
 					title: "Resume",
-					url: "/resume.pdf"
+					url: "/assets/resume.pdf"
 				}
 			]
 		}}
 	/>
 </aside>
-<div class="content">
-	<h1 id="projects">YO!</h1>
-	<h1 id="work">XD</h1>
-	<h1 id="contact">XD</h1>
-</div>
+<section class="content">
+	<Work
+		workandeducation={[
+			{
+				icon: "alpha_applications.webp",
+				name: "Alpha Applications",
+				date: "Nov 2024 - Jan 2025",
+				role: "Apprentice",
+				tasks: [
+					"Assisted in developing a WordPress tourism booking website, migrating data from the old site and creating custom JavaScript features to enhance functionality",
+					"Managed and updated WordPress plugins, collaborating with the lead developer to implement and refine key site features"
+				]
+			},
+			{
+				icon: "vhzk.webp",
+				name: "University of Applied Sciences Hrvatsko zagorje Krapina",
+				date: "Oct 2020 - Aug 2024",
+				role: "Bachelor of Engineering in Information Technology"
+			}
+		]}
+	/>
+	<Contact />
+</section>

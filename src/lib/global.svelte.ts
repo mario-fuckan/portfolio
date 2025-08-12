@@ -1,4 +1,4 @@
-import type { THEME } from "./types"
+import type { THEME, GENERAL } from "./types"
 
 export function setupSettings() {
 	settings.theme =
@@ -23,3 +23,7 @@ export const settings = $state<{
 }>({
 	theme: null
 })
+
+export const general: GENERAL = {
+	email: "mario.fucchan15@gmail.com"
+}

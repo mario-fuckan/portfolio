@@ -13,3 +13,15 @@ export type ASIDEBLOCK = {
 export type NAVSTATE = null | "theme"
 
 export type THEME = "light" | "dark" | null
+
+export type GENERAL = {
+	email: string
+}
+
+export type WORKANDEDUCATION = {
+	icon: string
+	name: string
+	date: string
+	role: string
+	tasks?: string[]
+}[]
