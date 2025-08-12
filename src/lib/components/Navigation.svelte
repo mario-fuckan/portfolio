@@ -6,7 +6,6 @@
 	import ThemeSelector from "./ThemeSelector.svelte"
 	import LucideMoon from "~icons/lucide/moon"
 	import LucideSun from "~icons/lucide/sun"
-	import LucideBookOpenText from "~icons/lucide/book-open-text"
 	import { settings } from "$lib/global.svelte"
 	import type { NAVSTATE } from "$lib/types"
 

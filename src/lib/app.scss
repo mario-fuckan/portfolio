@@ -43,6 +43,10 @@
 	color: var(--black);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
 	--black: #030711;
 	--button-background: #141b2b;
