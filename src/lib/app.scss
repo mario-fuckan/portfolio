@@ -250,7 +250,7 @@ nav {
 				border: 1px solid var(--border);
 				padding: 15px;
 
-				> a {
+				>a {
 					border-radius: 5px;
 					padding: 10px 15px;
 					display: flex;
@@ -263,7 +263,7 @@ nav {
 					transition: background-color var(--transition-duration);
 				}
 
-				> a:hover {
+				>a:hover {
 					@include hover;
 				}
 			}
@@ -281,7 +281,7 @@ nav {
 				border-radius: 10px;
 				display: grid;
 				grid-template-columns: 1fr;
-				gap: 15px;
+				gap: 20px;
 
 				.item {
 					display: flex;

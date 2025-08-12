@@ -248,7 +248,7 @@ nav .themeselector button:hover {
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 15px;
+  gap: 20px;
 }
 .wrapper .content #work .items .item {
   display: flex;
