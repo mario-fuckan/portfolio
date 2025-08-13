@@ -45,7 +45,6 @@
 	/>
 </aside>
 <section class="content">
-	<Projects />
 	<Work
 		workandeducation={[
 			{
@@ -63,6 +62,34 @@
 				name: "University of Applied Sciences Hrvatsko zagorje Krapina",
 				date: "Oct 2020 - Aug 2024",
 				role: "Bachelor of Engineering in Information Technology"
+			}
+		]}
+	/>
+	<Projects
+		projects={[
+			{
+				name: "World of Warcraft Item Reserve",
+				description: "Nesto o ovom",
+				tags: ["TAG"],
+				href: "https://wowir.vercel.app/"
+			},
+			{
+				name: "TwitchTiles",
+				description: "Nesto o ovom",
+				tags: ["TAG"],
+				href: "https://twitchtiles.vercel.app/"
+			},
+			{
+				name: "Paušal",
+				description: "Nesto o ovom",
+				tags: ["TAG"],
+				href: "https://pausal-tau.vercel.app/"
+			},
+			{
+				name: "TourneyJam",
+				description: "Nesto o projektu",
+				tags: ["TAG"],
+				href: "https://tourney-jam.vercel.app/"
 			}
 		]}
 	/>

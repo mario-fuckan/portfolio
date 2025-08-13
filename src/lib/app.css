@@ -42,6 +42,7 @@ html {
   --transition-duration: 0.3s;
   --underscore-offset: 4px;
   --section-padding-top: 80px;
+  --font-small: 0.75rem;
   --font-normal: 0.8rem;
   --font-normalplus: 0.9rem;
   --font-heading: 1rem;
@@ -243,8 +244,51 @@ nav .themeselector button:hover {
   gap: 20px;
 }
 .wrapper .content #projects .projects__list {
-  padding: 15px;
-  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.wrapper .content #projects .projects__list a {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 25px;
+  transition: background-color var(--transition-duration);
+}
+.wrapper .content #projects .projects__list a h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--white);
+  font-size: var(--font-heading);
+}
+.wrapper .content #projects .projects__list a h3 svg {
+  font-size: var(--font-normal);
+}
+.wrapper .content #projects .projects__list a > p {
+  line-height: 1.2rem;
+  font-size: var(--font-normal);
+  color: var(--gray);
+}
+.wrapper .content #projects .projects__list a .project__tags {
+  gap: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wrapper .content #projects .projects__list a .project__tags p {
+  color: var(--white);
+  border-radius: 5px;
+  font-size: var(--font-small);
+  padding: 2px 10px;
+  border: 1px solid var(--border);
+}
+.wrapper .content #projects .projects__list a:hover {
+  background-color: var(--border);
 }
 .wrapper .content #work {
   display: flex;

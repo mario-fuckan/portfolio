@@ -41,5 +41,3 @@
 		{/if}
 	</div>
 </nav>
-
-<span id="projects"></span>

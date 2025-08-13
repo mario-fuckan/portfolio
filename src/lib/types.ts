@@ -25,3 +25,10 @@ export type WORKANDEDUCATION = {
 	role: string
 	tasks?: string[]
 }[]
+
+export type PROJECTS = {
+	name: string
+	description: string
+	href: string
+	tags: string[]
+}[]
