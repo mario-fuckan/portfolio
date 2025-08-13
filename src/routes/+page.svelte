@@ -1,6 +1,7 @@
 <script lang="ts">
 	import AsideBlock from "$lib/components/AsideBlock.svelte"
 	import Contact from "$lib/components/Contact.svelte"
+	import Projects from "$lib/components/Projects.svelte"
 	import Work from "$lib/components/Work.svelte"
 </script>
 
@@ -44,6 +45,7 @@
 	/>
 </aside>
 <section class="content">
+	<Projects />
 	<Work
 		workandeducation={[
 			{

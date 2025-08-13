@@ -236,6 +236,16 @@ nav .themeselector button:hover {
 .wrapper .content #contact .contact__block > a:hover {
   background-color: var(--border);
 }
+.wrapper .content #projects {
+  padding-top: var(--section-padding-top);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper .content #projects .projects__list {
+  padding: 15px;
+  background-color: red;
+}
 .wrapper .content #work {
   display: flex;
   flex-direction: column;
