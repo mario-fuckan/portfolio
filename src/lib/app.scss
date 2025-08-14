@@ -305,7 +305,7 @@ nav {
 
 					>p {
 						line-height: 1.2rem;
-						font-size: var(--font-normal);
+						font-size: var(--font-normalplus);
 						color: var(--gray);
 					}
 
@@ -403,6 +403,7 @@ nav {
 						color: var(--gray);
 
 						p {
+							font-size: var(--font-normalplus);
 							margin-top: 5px;
 						}
 
@@ -412,7 +413,7 @@ nav {
 							grid-template-columns: 1fr;
 							gap: 5px;
 							list-style-position: inside;
-							font-size: var(--font-normal);
+							font-size: var(--font-normalplus);
 
 							li {
 								line-height: 1.2rem;

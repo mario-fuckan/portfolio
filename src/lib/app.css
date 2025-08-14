@@ -270,7 +270,7 @@ nav .themeselector button:hover {
 }
 .wrapper .content #projects .projects__list a > p {
   line-height: 1.2rem;
-  font-size: var(--font-normal);
+  font-size: var(--font-normalplus);
   color: var(--gray);
 }
 .wrapper .content #projects .projects__list a .project__tags {
@@ -355,6 +355,7 @@ nav .themeselector button:hover {
   color: var(--gray);
 }
 .wrapper .content #work .items .item .item__bottom p {
+  font-size: var(--font-normalplus);
   margin-top: 5px;
 }
 .wrapper .content #work .items .item .item__bottom ul {
@@ -363,7 +364,7 @@ nav .themeselector button:hover {
   grid-template-columns: 1fr;
   gap: 5px;
   list-style-position: inside;
-  font-size: var(--font-normal);
+  font-size: var(--font-normalplus);
 }
 .wrapper .content #work .items .item .item__bottom ul li {
   line-height: 1.2rem;
