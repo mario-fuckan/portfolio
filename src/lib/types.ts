@@ -32,3 +32,8 @@ export type PROJECTS = {
 	href: string
 	tags: string[]
 }[]
+
+export type TECHNOLOGIES = {
+	name: string,
+	icon: string
+}[]

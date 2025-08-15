@@ -373,6 +373,72 @@ nav .themeselector button:hover {
   padding-bottom: 0px;
   border-bottom: none;
 }
+.wrapper .content .introduction > h1 {
+  font-size: var(--font-title);
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.wrapper .content .introduction h2 {
+  font-size: var(--font-heading);
+  color: var(--white);
+}
+.wrapper .content .introduction hr {
+  background-color: var(--border);
+  border: none;
+  height: 1px;
+  margin: 20px 0px;
+}
+.wrapper .content .introduction .introduction__stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.wrapper .content .introduction .introduction__stats .stat h3 {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: var(--font-heading);
+  color: var(--white);
+}
+.wrapper .content .introduction .introduction__stats .stat p {
+  font-size: var(--font-small);
+  color: var(--gray);
+}
+.wrapper .content .introduction .technologies {
+  margin-top: 10px;
+}
+.wrapper .content .introduction .technologies h1 {
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: var(--white);
+  font-size: var(--font-heading);
+}
+.wrapper .content .introduction .technologies .technologies__showcase {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.wrapper .content .introduction .technologies .technologies__showcase button {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--transition-duration);
+  font-size: var(--font-normalplus);
+  border-radius: 7px;
+  color: var(--white);
+  padding: 8px 15px;
+  border: 1px solid var(--border);
+  background-color: transparent;
+}
+.wrapper .content .introduction .technologies .technologies__showcase button svg {
+  display: block;
+  width: 1rem;
+  aspect-ratio: 1;
+}
+.wrapper .content .introduction .technologies .technologies__showcase button:hover {
+  background-color: var(--border);
+}
 
 footer {
   color: var(--gray);
