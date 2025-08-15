@@ -117,7 +117,7 @@ nav a:hover,
 nav button:hover {
   background-color: var(--border);
 }
-nav a:first-of-type {
+nav > a {
   font-size: var(--font-normalplus);
   background-color: var(--button-background);
 }
