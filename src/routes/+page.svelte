@@ -68,27 +68,36 @@
 	<Projects
 		projects={[
 			{
-				name: "World of Warcraft Item Reserve",
-				description: "Nesto o ovom",
-				tags: ["TAG"],
+				name: "RaidReserve (WIP)",
+				description: "Manage loot distribution for the game World of Warcraft",
+				tags: ["SvelteKit", "TypeScript", "SCSS", "Prisma", "PostgreSQL", "SSE"],
 				href: "https://wowir.vercel.app/"
 			},
 			{
 				name: "TwitchTiles",
-				description: "Nesto o ovom",
-				tags: ["TAG"],
+				description: "Watch multiple Twitch.tv streams simultaneously",
+				tags: ["SvelteKit", "TypeScript", "Node.js"],
 				href: "https://twitchtiles.vercel.app/"
 			},
 			{
 				name: "Paušal",
-				description: "Nesto o ovom",
-				tags: ["TAG"],
+				description: "Financial tracking for flat-rate businesses",
+				tags: ["SvelteKit", "TypeScript", "Node.js", "Capacitor", "Progressive Web App"],
 				href: "https://pausal-tau.vercel.app/"
 			},
 			{
 				name: "TourneyJam",
-				description: "Nesto o projektu",
-				tags: ["TAG"],
+				description: "Create and manage esports tournaments",
+				tags: [
+					"SvelteKit",
+					"TypeScript",
+					"WebSockets",
+					"Node.js",
+					"PostgreSQL",
+					"Prisma",
+					"Lucia",
+					"Supabase"
+				],
 				href: "https://tourney-jam.vercel.app/"
 			}
 		]}
