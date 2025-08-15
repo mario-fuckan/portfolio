@@ -22,7 +22,7 @@
 		<a href="/"><LucideHome /> <span>Home</span></a>
 		<a href="/#work"><LucideBriefcase /> <span>Work</span></a>
 		<a href="/#projects"><LucidePresentation /> <span>Projects</span></a>
-		<a href="/#contact"><LucideMail /> <span>Projects</span></a>
+		<a href="/#contact"><LucideMail /> <span>Contact</span></a>
 		<div class="ts__wrapper">
 			<button
 				onclick={(e: MouseEvent) => {
