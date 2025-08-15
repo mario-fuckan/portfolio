@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"version": "0.0.1",
+	"version": "1.0",
 	"devDependencies": {
 		"@iconify-json/ic": "^1.2.4",
 		"@iconify-json/lucide": "^1.2.61",

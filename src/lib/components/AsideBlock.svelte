@@ -22,7 +22,7 @@
 	<div class="aside__block__links">
 		{#each information.links as { title, url }}
 			{@const Icon = icons.get(title.toLowerCase())}
-			<a href={url} target="_blank"><Icon /> {title}</a>
+			<a href={url} target="_blank"><Icon /> <span>{title}</span></a>
 		{/each}
 	</div>
 </div>

@@ -18,26 +18,28 @@
 
 <nav>
 	<a href="/">@mario_fuckan</a>
-	<a href="/"><LucideHome /> Home</a>
-	<a href="/#work"><LucideBriefcase /> Work</a>
-	<a href="/#projects"><LucidePresentation /> Projects</a>
-	<a href="/#contact"><LucideMail /> Contact</a>
-	<div class="ts__wrapper">
-		<button
-			onclick={(e: MouseEvent) => {
-				e.stopImmediatePropagation()
-				setNavState("theme")
-			}}
-		>
-			{#if settings.theme == "dark"}
-				<LucideMoon />
-			{:else}
-				<LucideSun />
-			{/if}
-		</button>
+	<div class="nav__links">
+		<a href="/"><LucideHome /> <span>Home</span></a>
+		<a href="/#work"><LucideBriefcase /> <span>Work</span></a>
+		<a href="/#projects"><LucidePresentation /> <span>Projects</span></a>
+		<a href="/#contact"><LucideMail /> <span>Projects</span></a>
+		<div class="ts__wrapper">
+			<button
+				onclick={(e: MouseEvent) => {
+					e.stopImmediatePropagation()
+					setNavState("theme")
+				}}
+			>
+				{#if settings.theme == "dark"}
+					<LucideMoon />
+				{:else}
+					<LucideSun />
+				{/if}
+			</button>
 
-		{#if navState == "theme"}
-			<ThemeSelector {setNavState} />
-		{/if}
+			{#if navState == "theme"}
+				<ThemeSelector {setNavState} />
+			{/if}
+		</div>
 	</div>
 </nav>
