@@ -113,8 +113,8 @@
 				date: "Nov 2024 - Jan 2025",
 				role: "Apprentice",
 				tasks: [
-					"Assisted in developing a WordPress tourism booking website, migrating data from the old site and creating custom JavaScript features to enhance functionality",
-					"Managed and updated WordPress plugins, collaborating with the lead developer to implement and refine key site features"
+					"Developed custom JavaScript features for a WordPress tourism platform, successfully migrating legacy data and improving booking functionality",
+					"Optimized WordPress plugins and collaborated with senior developers to implement core site features, enhancing user experience and site performance"
 				]
 			},
 			{
