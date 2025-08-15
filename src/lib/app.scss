@@ -256,7 +256,7 @@ nav {
 				border: 1px solid var(--border);
 				padding: 15px;
 
-				>a {
+				> a {
 					border-radius: 5px;
 					padding: 10px 15px;
 					display: flex;
@@ -269,7 +269,7 @@ nav {
 					transition: background-color var(--transition-duration);
 				}
 
-				>a:hover {
+				> a:hover {
 					@include hover;
 				}
 
@@ -312,7 +312,7 @@ nav {
 						}
 					}
 
-					>p {
+					> p {
 						line-height: 1.2rem;
 						font-size: var(--font-normalplus);
 						color: var(--gray);
@@ -439,7 +439,7 @@ nav {
 		}
 
 		.introduction {
-			>h1 {
+			> h1 {
 				font-size: var(--font-title);
 				font-weight: bold;
 				margin-bottom: 25px;
@@ -541,7 +541,7 @@ footer {
 
 @media screen and (max-width: 1440px) {
 	main {
-		width: 70%;
+		width: 80%;
 	}
 }
 
