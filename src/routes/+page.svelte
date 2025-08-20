@@ -32,7 +32,7 @@
 			links: [
 				{
 					title: "Github",
-					url: "https://github.com/mariomeow"
+					url: "https://github.com/mario-fuckan"
 				},
 				{
 					title: "LinkedIn",
