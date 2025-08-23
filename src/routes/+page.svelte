@@ -5,7 +5,6 @@
 	import Projects from "$lib/components/Projects.svelte"
 	import Technologies from "$lib/components/Technologies.svelte"
 	import Work from "$lib/components/Work.svelte"
-	import Resume from "$lib/assets/resume.pdf"
 </script>
 
 <svelte:head>
@@ -41,7 +40,7 @@
 				},
 				{
 					title: "Resume",
-					file: Resume
+					url: "/assets/resume.pdf"
 				}
 			]
 		}}

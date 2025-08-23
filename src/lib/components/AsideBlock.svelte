@@ -20,9 +20,9 @@
 		<p>{emoji} {text}</p>
 	{/each}
 	<div class="aside__block__links">
-		{#each information.links as { title, url, file }}
+		{#each information.links as { title, url }}
 			{@const Icon = icons.get(title.toLowerCase())}
-			<a href={url || file} target="_blank"><Icon /> <span>{title}</span></a>
+			<a href={url} target="_blank"><Icon /> <span>{title}</span></a>
 		{/each}
 	</div>
 </div>
