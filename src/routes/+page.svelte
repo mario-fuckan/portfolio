@@ -118,8 +118,8 @@
 			{
 				icon: "alpha_applications.webp",
 				name: "Alpha Applications",
-				date: "Nov 2024 - Feb 2025",
-				role: "Apprentice",
+				date: "Nov 2024 - Jan 2025",
+				role: "Web Developer",
 				tasks: [
 					"Developed custom JavaScript features for a WordPress tourism platform, successfully migrating legacy data and improving booking functionality",
 					"Optimized WordPress plugins and collaborated with senior developers to implement core site features, enhancing user experience and site performance"
@@ -142,18 +142,6 @@
 				href: "https://wowir.vercel.app/"
 			},
 			{
-				name: "TwitchTiles",
-				description: "Watch multiple Twitch.tv streams simultaneously",
-				tags: ["SvelteKit", "TypeScript", "Node.js"],
-				href: "https://twitchtiles.vercel.app/"
-			},
-			{
-				name: "Paušal",
-				description: "Financial tracking for flat-rate businesses",
-				tags: ["SvelteKit", "TypeScript", "Node.js", "Capacitor", "Progressive Web App"],
-				href: "https://pausal-tau.vercel.app/"
-			},
-			{
 				name: "TourneyJam",
 				description: "Create and manage esports tournaments",
 				tags: [
@@ -167,6 +155,24 @@
 					"Supabase"
 				],
 				href: "https://tourney-jam.vercel.app/"
+			},
+			{
+				name: "Paušal",
+				description: "Financial tracking for flat-rate businesses",
+				tags: ["SvelteKit", "TypeScript", "Node.js", "Capacitor", "Progressive Web App"],
+				href: "https://pausal-tau.vercel.app/"
+			},
+			{
+				name: "NoteBlink",
+				description: "Time organization with calendar and notes",
+				tags: ["SvelteKit", "TypeScript", "Node.js", "IndexedDB"],
+				href: "https://github.com/mario-fuckan/NoteBlink"
+			},
+			{
+				name: "TwitchTiles",
+				description: "Watch multiple Twitch.tv streams simultaneously",
+				tags: ["SvelteKit", "TypeScript", "Node.js"],
+				href: "https://twitchtiles.vercel.app/"
 			}
 		]}
 	/>
