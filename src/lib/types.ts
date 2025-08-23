@@ -6,7 +6,8 @@ export type ASIDEBLOCK = {
 	}[]
 	links: {
 		title: string
-		url: string
+		url?: string
+		file?: string
 	}[]
 }
 
