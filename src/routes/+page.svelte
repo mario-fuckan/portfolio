@@ -166,7 +166,7 @@
 				name: "NoteBlink",
 				description: "Time organization with calendar and notes",
 				tags: ["SvelteKit", "TypeScript", "Node.js", "IndexedDB"],
-				href: "https://github.com/mario-fuckan/NoteBlink"
+				href: "https://note-blink.vercel.app/"
 			},
 			{
 				name: "TwitchTiles",
