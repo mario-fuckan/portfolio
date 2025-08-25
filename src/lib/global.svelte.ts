@@ -25,5 +25,5 @@ export const settings = $state<{
 })
 
 export const general: GENERAL = {
-	email: "mario.fucchan15@gmail.com"
+	email: "mario@mariofuckan.com"
 }
