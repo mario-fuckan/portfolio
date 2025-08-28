@@ -118,7 +118,7 @@
 			{
 				icon: "alpha_applications.webp",
 				name: "Alpha Applications",
-				date: "Nov 2024 - Jan 2025",
+				date: "Nov 2024 - Feb 2025",
 				role: "Web Developer",
 				tasks: [
 					"Developed custom JavaScript features for a WordPress tourism platform, successfully migrating legacy data and improving booking functionality",
