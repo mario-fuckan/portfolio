@@ -371,9 +371,9 @@ nav .themeselector button:hover {
   grid-template-columns: 1fr;
   gap: 5px;
   list-style-position: inside;
-  font-size: var(--font-normalplus);
 }
 .wrapper .content #work .items .item .item__bottom ul li {
+  font-size: var(--font-normalplus);
   line-height: 1.2rem;
 }
 .wrapper .content #work .items .item:last-of-type {

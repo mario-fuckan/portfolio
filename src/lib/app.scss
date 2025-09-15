@@ -422,9 +422,9 @@ nav {
 							grid-template-columns: 1fr;
 							gap: 5px;
 							list-style-position: inside;
-							font-size: var(--font-normalplus);
 
 							li {
+								font-size: var(--font-normalplus);
 								line-height: 1.2rem;
 							}
 						}
