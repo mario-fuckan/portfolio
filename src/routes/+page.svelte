@@ -116,6 +116,16 @@
 	<Work
 		workandeducation={[
 			{
+				icon: "pckzz.webp",
+				name: "Entrepreneurial Centre of Krapina-Zagorje County - Health IT Academy",
+				date: "Oct 2025 - Current",
+				role: "Participant",
+				tasks: [
+					"Currently enrolled in the Health IT Academy, a specialized training program for medical informatics organized by the Entrepreneurial Centre of Krapina-Zagorje County",
+					"Program provides comprehensive training through a combination of lectures from industry experts and hands-on practice with healthcare IT solutions"
+				]
+			},
+			{
 				icon: "alpha_applications.webp",
 				name: "Alpha Applications",
 				date: "Nov 2024 - Feb 2025",
