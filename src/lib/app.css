@@ -525,10 +525,6 @@ footer a:hover {
     flex-direction: column;
     gap: 10px;
   }
-  .wrapper .content .introduction .technologies .technologies__showcase {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
   .contact__block p {
     text-align: center;
     width: 60%;
