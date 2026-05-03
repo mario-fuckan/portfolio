@@ -146,21 +146,6 @@
     <Projects
         projects={[
             {
-                name: "TourneyJam",
-                description: "Create and manage esports tournaments",
-                tags: [
-                    "SvelteKit",
-                    "TypeScript",
-                    "WebSockets",
-                    "Node.js",
-                    "PostgreSQL",
-                    "Prisma",
-                    "Lucia",
-                    "Supabase"
-                ],
-                href: "https://tourney-jam.vercel.app/"
-            },
-            {
                 name: "Paušal",
                 description: "Financial tracking for flat-rate businesses",
                 tags: ["SvelteKit", "TypeScript", "Node.js", "Capacitor", "Progressive Web App"],
