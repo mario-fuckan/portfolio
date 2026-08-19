@@ -119,7 +119,7 @@
                 icon: "pckzz.webp",
                 name: "Entrepreneurial Centre of Krapina-Zagorje County - Health IT Academy",
                 date: "Oct 2025 - Apr 2026",
-                role: "Medical Software Specialist",
+                role: "Medical Software Specialist | HZZ Voucher",
                 tasks: [
                     "Developed a chatbot for MedConnect AI within a 7-member team",
                     "Presented the project during Demo Day to IT industry experts"
@@ -129,7 +129,7 @@
                 icon: "alpha_applications.webp",
                 name: "Alpha Applications",
                 date: "Nov 2024 - Feb 2025",
-                role: "Web Developer",
+                role: "Web Developer | Internship",
                 tasks: [
                     "Developed custom JavaScript features for a WordPress tourism platform, successfully migrating legacy data and improving booking functionality",
                     "Optimized WordPress plugins and collaborated with senior developers to implement core site features, enhancing user experience and site performance"
